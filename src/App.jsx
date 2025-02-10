@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Todo from './components/todo'
+import Todo from './components/Todo'
 
 function App() {
   const [count, setCount] = useState(0)
