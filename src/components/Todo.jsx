@@ -66,7 +66,7 @@ useEffect(()=>{
       {/* ------ input box ------- */}
 
       <div className='flex items-center my-7 min-[350px]:my-2 bg-gray-200 rounded-full'>
-        <input ref={Task} className="bg-slate-400 border-0 outline-0 
+        <input ref={Task} className="bg-transparent border-0 outline-0 
         flex-1 h-14 pl-6 pr-2 max-[380px]:px-1 max-[380px]:text-sm max-[380px]:h-10 max-[380px]:w-full placeholder:text-slate-600" 
         type="text" placeholder='Add your task'/>
         
